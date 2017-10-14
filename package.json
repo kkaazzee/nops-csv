@@ -10,6 +10,10 @@
     "node": ">=8.6.0"
   },
   "dependencies": {
+    "json-stable-stringify": "^1.0.1",
+    "lodash.pick": "^4.4.0",
+    "random-words": "^0.0.1",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
