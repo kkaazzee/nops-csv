@@ -1,0 +1,31 @@
+{
+  "name": "nops-csv",
+  "version": "1.0.0",
+  "main": "lib/nops-csv.js",
+  "repository": "https://github.com/kkaazzee/nops-csv.git",
+  "author": "KKaazzee <kkaazzee@protonmail.com>",
+  "license": "Unlicense",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.6",
+    "eslint_d": "^5.1.0",
+    "nodemon": "^1.12.1"
+  },
+  "bin": {
+    "nops-csv": "lib/nops-csv.js"
+  },
+  "scripts": {
+    "requirements-check": "node lib/check-version.js",
+    "postinstall": "npm run requirements-check",
+    "lint": "eslint lib/*.js",
+    "dev": "nodemon --watch lib --watch fixtures.json lib/nops-csv.js",
+    "devi": "nodemon --inspect --watch lib --watch fixtures.json lib/nops-csv.js"
+  }
+}
