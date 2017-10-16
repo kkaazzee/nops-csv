@@ -7,4 +7,7 @@
 ehthumbs.db
 Thumbs.db
 node_modules/
-fixtures.json
+*.csv
+complete/
+temp/
+*.sh
