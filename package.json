@@ -1,6 +1,6 @@
 {
   "name": "nops-csv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/nops-csv.js",
   "repository": "https://github.com/kkaazzee/nops-csv.git",
   "author": "KKaazzee <kkaazzee@protonmail.com>",

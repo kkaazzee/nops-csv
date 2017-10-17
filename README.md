@@ -156,6 +156,10 @@ chats. This application is simply a front-end.
 
 ## Changelog
 
+### 1.0.1
+
+Corrected improper shebang and lack of executable permission.
+
 ### 1.0.0
 
 Initial release.
