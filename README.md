@@ -110,8 +110,8 @@ of that line.
 The tool then create and updates one of two new CSV files. After successful
 download and processing the `{session}-complete.csv` file is updated. Whereas
 after failure the `{session}-failed.csv` file is updated. The `{session}` token
-in the CSV files names is replaced by the name of the session, ex: `count-boy-
-complete.csv`.
+in the CSV files names is replaced by the name of the session, ex:
+`count-boy-complete.csv`.
 
 You can then easily retry failed downloads:
 
