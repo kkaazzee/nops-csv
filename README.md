@@ -156,13 +156,18 @@ chats. This application is simply a front-end.
 
 ## Changelog
 
+### 1.0.2
+
+* Bumped the `nops` dependency version to 1.1.0.
+* Always log error text from PkgDecrypt.
+
 ### 1.0.1
 
-Corrected improper shebang and lack of executable permission.
+* Corrected improper shebang and lack of executable permission.
 
 ### 1.0.0
 
-Initial release.
+* Initial release.
 
 ## Disclaimer
 

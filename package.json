@@ -1,6 +1,6 @@
 {
   "name": "nops-csv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/nops-csv.js",
   "repository": "https://github.com/kkaazzee/nops-csv.git",
   "author": "KKaazzee <kkaazzee@protonmail.com>",
@@ -18,7 +18,7 @@
     "firstline": "^1.2.1",
     "json-stable-stringify": "^1.0.1",
     "lodash.pick": "^4.4.0",
-    "nops": ">=1.0.1",
+    "nops": "1.1.0",
     "random-words": "^0.0.1",
     "yargs": "^9.0.1"
   },
